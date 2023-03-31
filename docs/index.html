@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Sesion 4</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/night.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/a11y-light.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2 class="titulos" style="font-size:38px"> Viernes de Código </h1>
+					<h2 style="font-size:35px"> Análisis de datos con python </h2>
+					<h2 style="font-size:35px"> Universidad del Norte - Departamento de Economía</h2>
+					<h3 style="font-size:30px"> Jorge Mario Orozco Thomas </h3>
+					<h3 style="font-size:30px"> Sesión 4: Introducción a pandas </h3>
+					<h4 style="font-size:30px"> Marzo de 2023 </h4>
+				</section>
+
+				<section data-auto-animate data-transition="convex">
+					<h1 style="font-size:60px">Programación</h1>
+					<ul style="list-style-type:'🎮'">
+						<li>Asistencia y registro</li>
+						<li>Mi calculadora</li>
+						<li>¿Que es pandas y jupyter?</li>
+						<li>Instalación e integración de pandas/jupyter a VS CODE</li>
+						<li>¿Que es un dataframe?</li>
+						<li>Mi primer dataframe en pandas</li>
+						<li>Que es numpy</li>
+						<li>Conocimiento básico de las librerias/modulos en python</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2 style="font-size:40px">Asistencia</h2>
+					<a href="https://forms.gle/6fVp9yhW4hjNH3Sc8" target="_blank">Asistencia</a>
+					<br>
+					<a href="https://discord.gg/pvbwguyt" target="_blank">Grupo de Discord</a>
+					<br>
+					<a href="https://github.com/Kin-George/Viernes-de-Codigo" target="_blank">Material</a>
+				</section>
+
+				<section data-auto-animate data-transition="convex">
+					<h2>Mi calculadora</h2>
+				</section>
+
+				<section data-auto-animate>
+					<h2>¿Que es pandas y jupyter?</h2>
+					<p style="font-size: 30px; text-align: justify;">Pandas es una libreria utilizada para el manejo de datos en python, y jupyter es el entorno de trabajo para usar comodamente dicha libreria.
+						Es decir, toda la tarea de tratamiento de datos como filtrar, depurar, ajustar, creación de variables y demas las realizaremos usando pandas.
+					</p>
+				</section>
+
+				<section>
+					<h2 style="font-size: 40px;">Instalación e integración</h2>
+					<p style="text-align: justify;">Con los siguientes comandos instalaremos pandas y jupyter en nuestro vs-code</p>
+					<pre> <code data-trim data-noescape data-line-numbers="1-2|3|4|5|6">
+						# pandas
+						"pip install pandas" # Instalamos pandas.
+						"pip install jupyter" # Instalamos jupyter.
+						"pip install seaborn" # Instalamos seaborn.
+						"pip install scikit-learn" # Instalamos scikit learn
+						"pip install keras" # Instalamos keras
+					</code></pre>
+				</section>
+
+				<section>
+					<h2 style="font-size: 40px;">¿Que es un dataframe?</h2>
+					<p style="text-align: justify;">Es un objeto con estructura de base de datos: las filas se llaman registros o entradas y las columnas se llaman campos.</p>
+				</section>
+
+				<section>
+					<h2 style="font-size: 40px;">numpy</h2>
+					<p style="text-align: justify;">NumPy es una librería de Python especializada en el cálculo numérico y el análisis de datos, especialmente para un gran volumen de datos.
+						Incorpora una nueva clase de objetos llamados arrays que permite representar colecciones de datos de un mismo tipo en varias dimensiones, y funciones muy eficientes para su manipulación.</p>
+				</section>
+
+				<section data-auto-animate data-transition="convex">
+					<h1 style="font-size:60px">Librerias</h1>
+					<ul style="list-style-type:'🎮'">
+						<li>Deep learning</li>
+						<li>Machine learning</li>
+						<li>Cálculo numérico</li>
+						<li>Visualización</li>
+						<li>Inteligencia artificial explicable</li>
+						<li>Procesamiento de lenguaje natural</li>
+					</ul>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
